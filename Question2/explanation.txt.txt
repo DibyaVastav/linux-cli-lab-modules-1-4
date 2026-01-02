@@ -1,0 +1,12 @@
+1. mkdir - creates a directory.
+2. I navigated into the documents directory and created an empty file named plan.txt
+3. echo - writes text into the file
+4. ls -l plan.txt - displays file permissions, ownership, and confirms my username as the owner.
+5. cp plan.txt plan_copy.txt - creates a copy of plan.txt named plan_copy.txt.
+6. mv documents project_documents - renamed directory
+7. mkdir project_documents/archive - creates a subdirectory named archive inside the project directory.
+8. mv project_documents/plan_copy.txt project_documents/archive/ - The copied file was moved into the archive directory for organization.
+9. ls -R project_documents - recursively lists all files and subdirectories within the project structure.
+10. realpath project_documents/archive/plan_copy.txt - displays the absolute path of the file after it was moved.
+
+
