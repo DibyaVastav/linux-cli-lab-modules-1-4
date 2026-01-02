@@ -1,0 +1,12 @@
+The whoami command displays my currently logged-in username.
+The groups command shows all Linux groups my user account belongs to.
+pwd shows the current working directory.
+ls -l lists files and directories in long format with permissions and ownership details.
+This command creates the file user_info.txt and writes a confirmation message into it.
+wc -c counts the number of characters present in the file.
+Since Git Bash does not support the man command, I accessed the documentation using mkdir --help.
+The -p option allows creation of parent directories if they do not already exist.
+(ls ~ | sort) lists the contents of my home directory and sorts them alphabetically.
+(echo -e "admin logged in\nuser logged out\nadmin updated system" > log.txt) This command creates a sample log file named log.txt containing entries for testing the grep command.
+grep searches for the word "admin" inside log.txt and displays only matching lines.
+(uname -r) displays the Linux kernel version currently running
