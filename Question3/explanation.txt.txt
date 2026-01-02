@@ -1,0 +1,16 @@
+1. echo - creates the file and writes a message into it.
+2. ln sample_data.txt sample_hard.txt - The ln command was used to create a hard link to sample_data.txt.
+On Windows-based Git Bash, hard link creation is restricted due to filesystem permission limitations, so the operation was denied.
+ln -s sample_data.txt sample_soft.txt - This command creates a symbolic (soft) link that points to the original file.
+3. ls -li sample_data.txt sample_soft.txt - In a Linux filesystem, hard links share the same inode as the original file.
+Due to Windows filesystem limitations in Git Bash, hard link creation was not permitted, so inode sharing could not be demonstrated.
+The symbolic link has a different inode because it only stores the path to the original file.
+4. stat sample_data.txt - file metadata inspection
+5. du -sh ~ - disk usage check, displays the total disk usage of the current directory in a human-readable format.
+7. ls -lh
+rm sample_soft.txt
+cat sample_data.txt
+df -h
+ 
+
+
